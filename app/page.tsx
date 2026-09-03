@@ -60,25 +60,105 @@ const capabilities = [
 
 const career = [
   {
-    period: "Aug 2024 – May 2026",
+    period: "Aug 2024 - Present",
     role: "Software Engineer",
-    company: "Frontmatec · Skive, Denmark",
+    company: "Frontmatec",
     description:
-      "Designed and delivered software solutions for industrial automation and Manufacturing Execution Systems (MES), including C#/.NET backend services, integrations and business-critical applications.",
+      "Working with industrial automation and MES solutions for the food industry, including SAP/ERP integration and equipment connectivity. Taking technical responsibility for business-critical software solutions, system integration and modernisation projects.",
     technologies:
-      "C# · .NET · ASP.NET Core · REST APIs · SQL Server · Docker · Jenkins · Git",
+      "C#, .NET, SQL Server, SAP/ERP, REST APIs, Industrial Automation, MES",
   },
+
   {
-    period: "Feb – Aug 2024",
+    period: "Feb 2024 - Aug 2024",
     role: "Software Consultant",
-    company: "SamuelSolutions · Horsens, Denmark",
+    company: "SamuelSolutions",
     description:
-      "Delivered software consulting services including full-stack application development, system integration and technical advisory. Designed and deployed business applications using Vue.js, C#/.NET and MySQL.",
+      "Delivered full-stack web applications for Danish clients, combining modern frontend development with backend services and database integration. Provided system integration, backend development and technical advisory services.",
     technologies:
-      "Vue.js · C# · .NET · MySQL · REST APIs · Cloud",
+      "Vue.js, .NET, C#, MySQL, REST API, Full-Stack Development",
+  },
+
+  {
+    period: "Feb 2021 - Jan 2024",
+    role: "Software Engineer & Architect",
+    company: "SofXways",
+    description:
+      "Designed and developed the GanttBee workforce management SaaS platform from scratch. Took full product ownership including architecture, development, infrastructure and technical direction. Built functionality covering resource planning, GPS tracking, logistics, accommodation, time registration and document management.",
+    technologies:
+      "C#, .NET, Vue.js, Vuetify, MongoDB, Docker, Jenkins, CI/CD, DigitalOcean",
+  },
+
+  {
+    period: "Jan 2019 - Feb 2021",
+    role: "Software Engineer & Team Lead",
+    company: "r2p Tracking",
+    description:
+      "Developed travel planning and driver scheduling systems for transport operations. Integrated Rejsekort, CCTV and automated passenger announcement systems with real-time MQTT communication. Developed backend services for cameras, displays and travel planning systems, while leading requirements gathering, sprint planning and technical reviews.",
+    technologies:
+      "C#, .NET, PHP, SQL Server, MQTT, REST APIs, CCTV, Travel Planning",
+  },
+
+  {
+    period: "Jun 2018 - Dec 2018",
+    role: "Software Engineer",
+    company: "Vestas",
+    description:
+      "Developed and maintained testing software for wind turbine systems. Integrated software with external test equipment for automated data collection and analysis, and developed communication plugins for multimeters and Schneider Electric modules.",
+    technologies:
+      ".NET, C#, Test Automation, Hardware Integration, Schneider Electric",
+  },
+
+  {
+    period: "Oct 2010 - May 2018",
+    role: "Software Engineer & Team Lead",
+    company: "r2p Tracking",
+    description:
+      "Built and evolved a comprehensive fleet management platform over multiple product generations. Took technical ownership from system architecture and backend development through to client-facing improvements, while leading the development team.",
+    technologies:
+      "C#, .NET, SQL Server, REST APIs, ASP.NET, Fleet Management",
+  },
+
+  {
+    period: "Aug 2006 - Feb 2010",
+    role: "Software Engineer",
+    company: "KK Electronic",
+    description:
+      "Developed industrial automation and SCADA solutions for the renewable energy sector. Led development of the Zafarana Wind Park SCADA system in Egypt, integrating more than 400 wind turbines. Developed real-time monitoring, production reporting and industrial communication solutions using OPC, Modbus and EtherCAT.",
+    technologies:
+      "C#, ASP.NET, OPC UA, OPC DA, Modbus, EtherCAT, SCADA",
+  },
+
+  {
+    period: "2003 - 2006",
+    role: "IT Support",
+    company: "Ekkomarine Medico",
+    description:
+      "Provided IT support and technical assistance, supporting users, systems and day-to-day IT operations.",
+    technologies:
+      "IT Support, Hardware, Software, Networking",
+  },
+
+  {
+    period: "2000 - 2002",
+    role: "Software Engineer",
+    company: "Bang & Olufsen",
+    description:
+      "Worked as a software engineer developing software solutions using .NET and C#, with a focus on embedded systems.",
+    technologies:
+      ".NET, C#, Embedded Systems",
+  },
+
+  {
+    period: "1993 - 2000",
+    role: "Analyst Programmer / Lecturer / IT Support",
+    company: "UAE, Oman & India",
+    description:
+      "Worked across software development, programming, education and IT support roles, building the foundation for a long-term career in software engineering and technology.",
+    technologies:
+      "Software Development, Programming, IT Support, Teaching",
   },
 ];
-
 const developmentSteps = [
   ["01", "Requirements", "Business needs"],
   ["02", "Architecture", "Solution design"],
