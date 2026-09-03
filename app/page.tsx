@@ -515,6 +515,8 @@ export default function Home() {
 
             <div className="grid lg:grid-cols-2">
 
+              {/* LEFT - DESCRIPTION */}
+
               <div className="flex flex-col justify-center p-7 lg:p-10">
 
                 <span className="mb-4 w-fit rounded-full bg-blue-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-blue-700">
@@ -532,7 +534,6 @@ export default function Home() {
                   Gantt scheduling, timesheets and resource capacity
                   management.
                 </p>
-
 
                 <div className="mt-6 flex flex-wrap gap-2">
 
@@ -556,7 +557,6 @@ export default function Home() {
 
                 </div>
 
-
                 <ul className="mt-6 space-y-2.5 text-sm text-zinc-600">
 
                   <li>✓ Project planning and forecasting</li>
@@ -571,17 +571,55 @@ export default function Home() {
               </div>
 
 
+              {/* RIGHT - FOUR PROJECT IMAGES */}
+
               <div className="flex min-h-[400px] items-center justify-center bg-zinc-100 p-5">
 
-                <div className="relative w-full overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-xl">
+                <div className="grid w-full grid-cols-2 gap-4">
 
-                  <Image
-                    src="/projects/project-workforce.png"
-                    alt="Project and workforce management platform"
-                    width={1200}
-                    height={700}
-                    className="h-auto w-full"
-                  />
+                  {/* Workforce */}
+                  <div className="overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-lg">
+                    <Image
+                      src="/projects/project-workforce.png"
+                      alt="Workforce management"
+                      width={1200}
+                      height={700}
+                      className="h-auto w-full object-contain"
+                    />
+                  </div>
+
+                  {/* Timesheet */}
+                  <div className="overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-lg">
+                    <Image
+                      src="/projects/project-timesheet.png"
+                      alt="Timesheet management"
+                      width={1200}
+                      height={700}
+                      className="h-auto w-full object-contain"
+                    />
+                  </div>
+
+                  {/* Resource */}
+                  <div className="overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-lg">
+                    <Image
+                      src="/projects/project-resource.png"
+                      alt="Resource management"
+                      width={1200}
+                      height={700}
+                      className="h-auto w-full object-contain"
+                    />
+                  </div>
+
+                  {/* Gantt */}
+                  <div className="overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-lg">
+                    <Image
+                      src="/projects/project-gantt.png"
+                      alt="Gantt planning"
+                      width={1200}
+                      height={700}
+                      className="h-auto w-full object-contain"
+                    />
+                  </div>
 
                 </div>
 
@@ -603,7 +641,7 @@ export default function Home() {
                 <div className="relative w-full overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-xl">
 
                   <Image
-                    src="/projects/project-resource.png"
+                    src="/projects/project-msa.png"
                     alt="Enterprise project resource and cost management platform"
                     width={1200}
                     height={700}
