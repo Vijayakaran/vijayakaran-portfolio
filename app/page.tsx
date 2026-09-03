@@ -684,9 +684,13 @@ export default function Home() {
                   <div className="text-sm text-blue-200">
                     Available for
                   </div>
-                  <div className="mt-1 font-semibold">
-                    Senior Software Engineering Opportunities
-                  </div>
+  <div className="mt-2 font-semibold leading-6">
+    Senior Software Engineer
+    <br />
+    Backend Developer · .NET Developer
+    <br />
+    C# Developer · API & Enterprise Software
+  </div>
                 </div>
               </div>
             </div>
