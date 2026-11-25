@@ -791,6 +791,166 @@ export default function Home() {
 
           </article>
 
+          {/* PROJECT 03 - AI TENDER QUOTATION ASSISTANT */}
+
+          <article className="mt-16 overflow-hidden rounded-3xl border border-blue-200 bg-white shadow-sm">
+
+            <div className="grid lg:grid-cols-2">
+
+              <div className="flex flex-col justify-center p-7 lg:p-10">
+
+                <span className="mb-4 w-fit rounded-full bg-blue-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-blue-700">
+                  Project 03 · Personal AI Project
+                </span>
+
+                <h3 className="text-3xl font-bold sm:text-4xl">
+                  AI-Powered Tender Quotation Assistant
+                </h3>
+
+                <p className="mt-2 text-sm font-semibold text-amber-700">
+                  Currently under development
+                </p>
+
+                <p className="mt-4 leading-7 text-zinc-600">
+                  Designing and developing an AI-powered business application
+                  to support tender document analysis and quotation preparation.
+                  The solution combines document processing, semantic search,
+                  inventory data and historical quotation information to help
+                  prepare draft quotations.
+                </p>
+
+                <div className="mt-6 flex flex-wrap gap-2">
+                  {[
+                    "Python",
+                    "FastAPI",
+                    "Django",
+                    "RAG",
+                    "Ollama",
+                    "ChromaDB",
+                    "PostgreSQL",
+                    "Docker Compose",
+                  ].map((tech) => (
+                    <span
+                      key={tech}
+                      className="rounded-md bg-zinc-50 px-3 py-1.5 text-xs font-medium text-zinc-700 ring-1 ring-zinc-200"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
+                <ul className="mt-6 space-y-2.5 text-sm text-zinc-600">
+                  <li>✓ Tender document upload and processing</li>
+                  <li>✓ AI-assisted document analysis using RAG</li>
+                  <li>✓ Semantic search with ChromaDB embeddings</li>
+                  <li>✓ Product and inventory data from PostgreSQL</li>
+                  <li>✓ Historical quotation and price reference</li>
+                  <li>✓ Quotation review and management</li>
+                  <li>✓ Locally hosted open-source LLMs using Ollama</li>
+                </ul>
+
+              </div>
+
+              <div className="flex items-center justify-center bg-zinc-50 p-5 lg:p-8">
+                <div className="w-full overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-lg">
+                  <Image
+                    src="/projects/TenderAI/AdminDashboard.png"
+                    alt="Tender Quotation Assistant admin dashboard"
+                    width={1600}
+                    height={900}
+                    className="h-auto w-full object-contain"
+                  />
+                </div>
+              </div>
+
+            </div>
+
+            {/* ARCHITECTURE AND DATAFLOW */}
+            <div className="border-t border-zinc-200 p-6 lg:p-10">
+              <div className="mb-5">
+                <h4 className="text-2xl font-bold">Architecture & Dataflow</h4>
+                <p className="mt-2 leading-7 text-zinc-600">
+                  The application is organised into separate frontend, backend
+                  and RAG services, with PostgreSQL as the main business
+                  database, ChromaDB for vector search and Ollama for local
+                  language-model inference.
+                </p>
+              </div>
+
+              <div className="overflow-hidden rounded-xl border border-zinc-200 bg-white">
+                <Image
+                  src="/projects/Tender%20Quotation%20Assistant%20Architecture%20%26%20Dataflow.png"
+                  alt="Tender Quotation Assistant system architecture and dataflow"
+                  width={1800}
+                  height={1200}
+                  className="h-auto w-full object-contain"
+                />
+              </div>
+            </div>
+
+            {/* APPLICATION SCREENSHOTS */}
+            <div className="border-t border-zinc-200 bg-zinc-50 p-6 lg:p-10">
+              <div className="mb-6">
+                <h4 className="text-2xl font-bold">Application Screenshots</h4>
+                <p className="mt-2 leading-7 text-zinc-600">
+                  A look at the application modules currently being developed.
+                </p>
+              </div>
+
+              <div className="grid gap-5 sm:grid-cols-2">
+                {[
+                  {
+                    src: "/projects/TenderAI/UserManagement.png",
+                    alt: "User management",
+                    title: "User Management",
+                  },
+                  {
+                    src: "/projects/TenderAI/DocumentManagement.png",
+                    alt: "Tender document management",
+                    title: "Document Management",
+                  },
+                  {
+                    src: "/projects/TenderAI/InventoryManagement.png",
+                    alt: "Product inventory and pricing",
+                    title: "Inventory Management",
+                  },
+                  {
+                    src: "/projects/TenderAI/TenderManagement.png",
+                    alt: "Tender processing and status",
+                    title: "Tender Management",
+                  },
+                  {
+                    src: "/projects/TenderAI/QuotationManagement.png",
+                    alt: "Quotation management overview",
+                    title: "Quotation Management",
+                  },
+                  {
+                    src: "/projects/TenderAI/QuotationInformation.png",
+                    alt: "Quotation details, product prices and totals",
+                    title: "Quotation Details",
+                  },
+                ].map((item) => (
+                  <div
+                    key={item.src}
+                    className="overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm"
+                  >
+                    <div className="border-b border-zinc-200 px-4 py-3 text-sm font-semibold text-zinc-800">
+                      {item.title}
+                    </div>
+                    <Image
+                      src={item.src}
+                      alt={item.alt}
+                      width={1600}
+                      height={900}
+                      className="h-auto w-full object-contain"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </article>
+
         </div>
 
       </section>
