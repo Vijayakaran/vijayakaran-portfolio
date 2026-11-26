@@ -2,18 +2,29 @@
 import Image from "next/image";
 
 const technologies = [
+  // AI application development
+  "RAG",
+  "LLMs",
+  "OpenAI",
+  "Ollama",
+  "LangChain",
+  "ChromaDB",
+  "Sentence Transformers",
+  // Core backend engineering
   "C#",
   ".NET",
   "ASP.NET Core",
   "REST APIs",
   "Entity Framework",
+  "Python",
+  "FastAPI",
+  "Django",
+  // Data, frontend and delivery
+  "PostgreSQL",
+  "SQL Server",
+  "MongoDB",
   "Vue.js",
   "Next.js",
-  "MongoDB",
-  "MySQL",
-  "SQL Server",
-  "Linux",
-  "Git",
   "Docker",
   "Jenkins",
   "CI/CD",
@@ -22,39 +33,39 @@ const technologies = [
 const capabilities = [
   {
     number: "01",
-    title: "Backend Development",
+    title: "AI Application Development",
     description:
-      "Building reliable backend services, APIs, business logic and data-driven applications using C# and .NET.",
+      "Designing practical AI-powered business applications that connect language models, company knowledge and real operational workflows.",
   },
   {
     number: "02",
-    title: "Enterprise Applications",
+    title: "C# / .NET Backend Development",
     description:
-      "Developing business applications for complex workflows, operational processes, project management and workforce management.",
+      "Building robust backend services and business logic with C#, .NET and ASP.NET Core, with a strong focus on maintainable enterprise solutions.",
   },
   {
     number: "03",
-    title: "REST API Development",
+    title: "REST API Design & Development",
     description:
-      "Designing and implementing REST APIs that connect applications, databases and external business systems.",
+      "Designing secure, reliable REST APIs that connect frontend applications, databases, AI services and external business systems.",
   },
   {
     number: "04",
-    title: "System Integration",
+    title: "RAG, LLMs & Intelligent Search",
     description:
-      "Connecting business platforms through APIs, databases, ERP systems and other enterprise integrations.",
+      "Developing retrieval-augmented generation workflows using document extraction, embeddings, vector databases and semantic search.",
   },
   {
     number: "05",
-    title: "Database & Data",
+    title: "Enterprise Systems & Integration",
     description:
-      "Working with SQL Server, MySQL and MongoDB to design reliable data structures and support business applications.",
+      "Connecting business applications, databases, ERP platforms and operational systems through dependable integrations.",
   },
   {
     number: "06",
-    title: "Architecture & Modernisation",
+    title: "Architecture & Full-Stack Delivery",
     description:
-      "Turning business requirements into maintainable technical solutions with focus on scalability, reliability and long-term evolution.",
+      "Turning complex requirements into complete, maintainable solutions across application architecture, databases, frontend and deployment.",
   },
 ];
 
@@ -160,11 +171,11 @@ const career = [
   },
 ];
 const developmentSteps = [
-  ["01", "Requirements", "Business needs"],
-  ["02", "Architecture", "Solution design"],
-  ["03", "Backend", "C# / .NET"],
-  ["04", "Data & APIs", "SQL / REST"],
-  ["05", "Delivery", "Production"],
+  ["01", "Understand", "Business documents"],
+  ["02", "Extract", "Text & structure"],
+  ["03", "Embed", "Vector knowledge"],
+  ["04", "Retrieve", "Relevant context"],
+  ["05", "Generate", "AI-assisted output"],
 ];
 
 export default function Home() {
@@ -241,26 +252,27 @@ export default function Home() {
           <div>
 
             <div className="mb-5 inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">
-              Senior Software Engineer
+              AI Application Development · C# Backend Engineering
             </div>
 
             <h1 className="max-w-4xl text-5xl font-bold leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">
               Building{" "}
               <span className="text-blue-600">
-                reliable software
+                intelligent AI solutions
               </span>{" "}
-              for real business problems.
+              and robust backend systems.
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-              I am Vijayakaran Samuel, a senior software engineer focused on
-              backend development, enterprise applications, APIs,
-              integrations and business systems.
+              I am Vijayakaran Samuel. I develop AI-powered business
+              applications and build robust backend services using C#,
+              .NET, ASP.NET Core and REST APIs.
             </p>
 
             <p className="mt-3 max-w-2xl text-base leading-7 text-zinc-500">
-              I enjoy taking complex business requirements and turning them
-              into practical, maintainable and scalable software solutions.
+              My work combines hands-on AI development — including RAG, LLMs
+              and intelligent document processing — with strong backend API
+              engineering and extensive enterprise software experience.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -285,12 +297,14 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap gap-2.5">
               {[
+                "AI Applications",
+                "RAG & LLMs",
                 "C# / .NET",
                 "ASP.NET Core",
-                "REST APIs",
-                "Vue.js",
-                "SQL",
-                "MongoDB",
+                "REST API Development",
+                "Python / FastAPI",
+                "ChromaDB",
+                "Docker",
               ].map((item) => (
                 <span
                   key={item}
@@ -431,21 +445,26 @@ export default function Home() {
               <div className="space-y-5 text-lg leading-8 text-zinc-600">
 
                 <p>
-                  I develop complete business applications, from understanding
-                  requirements and designing the architecture to implementing
-                  backend services, databases, APIs and user interfaces.
+                  I design and develop AI-powered applications that combine
+                  document processing, retrieval-augmented generation (RAG),
+                  language models, vector search and business data. My focus is
+                  making AI useful in real company workflows — not just building
+                  demonstrations.
                 </p>
 
                 <p>
-                  My experience includes project management systems, workforce
-                  management, resource planning, timesheets, cost management,
-                  industrial software and business integrations.
+                  My other core strength is backend engineering with C#, .NET
+                  and ASP.NET Core. I have extensive hands-on experience
+                  designing REST APIs, implementing business logic, working
+                  with SQL and NoSQL databases, and integrating enterprise
+                  systems.
                 </p>
 
                 <p>
-                  I am particularly interested in challenging software problems
-                  where reliability, maintainability and integration with
-                  existing business systems are important.
+                  I bring these strengths together: AI capabilities built on
+                  top of reliable APIs, well-designed databases and maintainable
+                  application architecture. I enjoy solving practical business
+                  problems from the AI layer through to the backend.
                 </p>
 
               </div>
@@ -456,14 +475,14 @@ export default function Home() {
               <div className="mt-7 grid gap-3 sm:grid-cols-2">
 
                 {[
-                  "Backend Development",
-                  "C# / .NET",
-                  "REST API Development",
-                  "Enterprise Applications",
+                  "AI Application Development",
+                  "RAG & Semantic Search",
+                  "LLM Integration",
+                  "C# / .NET Backend",
+                  "ASP.NET Core REST APIs",
+                  "Python & FastAPI",
                   "Database Design",
-                  "System Integration",
-                  "Software Architecture",
-                  "Application Modernisation",
+                  "Enterprise Integration",
                 ].map((item) => (
 
                   <div
@@ -578,16 +597,169 @@ export default function Home() {
             </p>
 
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              Enterprise software projects
+              AI solutions and enterprise applications
             </h2>
 
             <p className="mt-4 text-lg leading-7 text-zinc-600">
-              Examples of software platforms and business systems developed
-              around real operational requirements.
+              My projects demonstrate both sides of my engineering experience:
+              applying AI to business problems and building the robust backend
+              systems, APIs and integrations that make applications reliable.
             </p>
 
           </div>
 
+
+          {/* FEATURED PROJECT - AI TENDER QUOTATION ASSISTANT */}
+
+          <article className="mb-16 overflow-hidden rounded-3xl border border-blue-200 bg-white shadow-lg shadow-blue-100/60">
+
+            <div className="grid lg:grid-cols-2">
+
+              <div className="flex flex-col justify-center p-7 lg:p-10">
+
+                <span className="mb-4 w-fit rounded-full bg-blue-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-blue-700">
+                  Featured AI Project
+                </span>
+
+                <h3 className="text-3xl font-bold sm:text-4xl">
+                  AI-Powered Tender Quotation Assistant
+                </h3>
+
+                <p className="mt-2 text-sm font-semibold text-amber-700">
+                  AI application · Active development
+                </p>
+
+                <p className="mt-4 leading-7 text-zinc-600">
+                  Designing and developing an AI-powered business application
+                  to support tender document analysis and quotation preparation.
+                  The solution combines document processing, semantic search,
+                  inventory data and historical quotation information to help
+                  prepare draft quotations.
+                </p>
+
+                <div className="mt-6 flex flex-wrap gap-2">
+                  {[
+                    "Python",
+                    "FastAPI",
+                    "Django",
+                    "RAG",
+                    "Ollama",
+                    "ChromaDB",
+                    "PostgreSQL",
+                    "Docker Compose",
+                  ].map((tech) => (
+                    <span
+                      key={tech}
+                      className="rounded-md bg-zinc-50 px-3 py-1.5 text-xs font-medium text-zinc-700 ring-1 ring-zinc-200"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
+                <ul className="mt-6 space-y-2.5 text-sm text-zinc-600">
+                  <li>✓ Tender document upload and processing</li>
+                  <li>✓ AI-assisted document analysis using RAG</li>
+                  <li>✓ Semantic search with ChromaDB embeddings</li>
+                  <li>✓ Product and inventory data from PostgreSQL</li>
+                  <li>✓ Historical quotation and price reference</li>
+                  <li>✓ Quotation review and management</li>
+                  <li>✓ Locally hosted open-source LLMs using Ollama</li>
+                </ul>
+
+              </div>
+
+              {/* RIGHT - APPLICATION SCREENSHOTS, ARRANGED LIKE PROJECT 02 */}
+              <div className="flex items-center justify-center bg-zinc-100 p-5 lg:p-6">
+                <div className="grid w-full grid-cols-2 gap-3">
+                  {[
+                    {
+                      src: "/projects/TenderAI/AdminDashboard.png",
+                      alt: "Tender Quotation Assistant admin dashboard",
+                      title: "Admin Dashboard",
+                      featured: true,
+                    },
+                    {
+                      src: "/projects/TenderAI/UserManagement.png",
+                      alt: "User management",
+                      title: "User Management",
+                    },
+                    {
+                      src: "/projects/TenderAI/DocumentManagement.png",
+                      alt: "Tender document management",
+                      title: "Document Management",
+                    },
+                    {
+                      src: "/projects/TenderAI/InventoryManagement.png",
+                      alt: "Product inventory and pricing",
+                      title: "Inventory Management",
+                    },
+                    {
+                      src: "/projects/TenderAI/TenderManagement.png",
+                      alt: "Tender processing and status",
+                      title: "Tender Management",
+                    },
+                    {
+                      src: "/projects/TenderAI/QuotationManagement.png",
+                      alt: "Quotation management overview",
+                      title: "Quotation Management",
+                    },
+                    {
+                      src: "/projects/TenderAI/QuotationInformation.png",
+                      alt: "Quotation details, product prices and totals",
+                      title: "Quotation Details",
+                    },
+                  ].map((item) => (
+                    <div
+                      key={item.src}
+                      className={`overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-md ${
+                        item.featured ? "col-span-2" : ""
+                      }`}
+                    >
+                      <div className="border-b border-zinc-200 px-3 py-2 text-xs font-semibold text-zinc-800">
+                        {item.title}
+                      </div>
+                      <div className="flex aspect-[16/9] items-center justify-center bg-white p-1.5">
+                        <Image
+                          src={item.src}
+                          alt={item.alt}
+                          width={1600}
+                          height={900}
+                          className="h-full w-full object-contain"
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+            </div>
+
+            {/* ARCHITECTURE AND DATAFLOW */}
+            <div className="border-t border-zinc-200 p-6 lg:p-10">
+              <div className="mb-5">
+                <h4 className="text-2xl font-bold">Architecture & Dataflow</h4>
+                <p className="mt-2 leading-7 text-zinc-600">
+                  The solution combines a Django web application, FastAPI
+                  business services and a dedicated RAG service. PostgreSQL
+                  manages operational data, ChromaDB supports semantic search,
+                  and Ollama provides local language-model inference. The
+                  services are integrated through clearly defined APIs.
+                </p>
+              </div>
+
+              <div className="overflow-hidden rounded-xl border border-zinc-200 bg-white">
+                <Image
+                  src="/projects/TenderAI/TenderAI-Architecture.png"
+                  alt="Tender Quotation Assistant system architecture and dataflow"
+                  width={1247}
+                  height={1261}
+                  className="h-auto w-full object-contain"
+                />
+              </div>
+            </div>
+
+          </article>
 
           {/* PROJECT 01 */}
 
@@ -600,7 +772,7 @@ export default function Home() {
               <div className="flex flex-col justify-center p-7 lg:p-10">
 
                 <span className="mb-4 w-fit rounded-full bg-blue-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-blue-700">
-                  Project 01
+                  Project 02
                 </span>
 
                 <h3 className="text-3xl font-bold sm:text-4xl">
@@ -736,7 +908,7 @@ export default function Home() {
               <div className="order-1 flex flex-col justify-center p-7 lg:order-2 lg:p-10">
 
                 <span className="mb-4 w-fit rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-emerald-700">
-                  Project 02
+                  Project 03
                 </span>
 
                 <h3 className="text-3xl font-bold sm:text-4xl">
@@ -791,165 +963,7 @@ export default function Home() {
 
           </article>
 
-          {/* PROJECT 03 - AI TENDER QUOTATION ASSISTANT */}
-
-          <article className="mt-16 overflow-hidden rounded-3xl border border-blue-200 bg-white shadow-sm">
-
-            <div className="grid lg:grid-cols-2">
-
-              <div className="flex flex-col justify-center p-7 lg:p-10">
-
-                <span className="mb-4 w-fit rounded-full bg-blue-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-blue-700">
-                  Project 03 · Personal AI Project
-                </span>
-
-                <h3 className="text-3xl font-bold sm:text-4xl">
-                  AI-Powered Tender Quotation Assistant
-                </h3>
-
-                <p className="mt-2 text-sm font-semibold text-amber-700">
-                  Currently under development
-                </p>
-
-                <p className="mt-4 leading-7 text-zinc-600">
-                  Designing and developing an AI-powered business application
-                  to support tender document analysis and quotation preparation.
-                  The solution combines document processing, semantic search,
-                  inventory data and historical quotation information to help
-                  prepare draft quotations.
-                </p>
-
-                <div className="mt-6 flex flex-wrap gap-2">
-                  {[
-                    "Python",
-                    "FastAPI",
-                    "Django",
-                    "RAG",
-                    "Ollama",
-                    "ChromaDB",
-                    "PostgreSQL",
-                    "Docker Compose",
-                  ].map((tech) => (
-                    <span
-                      key={tech}
-                      className="rounded-md bg-zinc-50 px-3 py-1.5 text-xs font-medium text-zinc-700 ring-1 ring-zinc-200"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-
-                <ul className="mt-6 space-y-2.5 text-sm text-zinc-600">
-                  <li>✓ Tender document upload and processing</li>
-                  <li>✓ AI-assisted document analysis using RAG</li>
-                  <li>✓ Semantic search with ChromaDB embeddings</li>
-                  <li>✓ Product and inventory data from PostgreSQL</li>
-                  <li>✓ Historical quotation and price reference</li>
-                  <li>✓ Quotation review and management</li>
-                  <li>✓ Locally hosted open-source LLMs using Ollama</li>
-                </ul>
-
-              </div>
-
-              <div className="flex items-center justify-center bg-zinc-50 p-5 lg:p-8">
-                <div className="w-full overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-lg">
-                  <Image
-                    src="/projects/TenderAI/AdminDashboard.png"
-                    alt="Tender Quotation Assistant admin dashboard"
-                    width={1600}
-                    height={900}
-                    className="h-auto w-full object-contain"
-                  />
-                </div>
-              </div>
-
-            </div>
-
-            {/* ARCHITECTURE AND DATAFLOW */}
-            <div className="border-t border-zinc-200 p-6 lg:p-10">
-              <div className="mb-5">
-                <h4 className="text-2xl font-bold">Architecture & Dataflow</h4>
-                <p className="mt-2 leading-7 text-zinc-600">
-                  The application is organised into separate frontend, backend
-                  and RAG services, with PostgreSQL as the main business
-                  database, ChromaDB for vector search and Ollama for local
-                  language-model inference.
-                </p>
-              </div>
-
-              <div className="overflow-hidden rounded-xl border border-zinc-200 bg-white">
-                <Image
-                  src="/projects/Tender%20Quotation%20Assistant%20Architecture%20%26%20Dataflow.png"
-                  alt="Tender Quotation Assistant system architecture and dataflow"
-                  width={1800}
-                  height={1200}
-                  className="h-auto w-full object-contain"
-                />
-              </div>
-            </div>
-
-            {/* APPLICATION SCREENSHOTS */}
-            <div className="border-t border-zinc-200 bg-zinc-50 p-6 lg:p-10">
-              <div className="mb-6">
-                <h4 className="text-2xl font-bold">Application Screenshots</h4>
-                <p className="mt-2 leading-7 text-zinc-600">
-                  A look at the application modules currently being developed.
-                </p>
-              </div>
-
-              <div className="grid gap-5 sm:grid-cols-2">
-                {[
-                  {
-                    src: "/projects/TenderAI/UserManagement.png",
-                    alt: "User management",
-                    title: "User Management",
-                  },
-                  {
-                    src: "/projects/TenderAI/DocumentManagement.png",
-                    alt: "Tender document management",
-                    title: "Document Management",
-                  },
-                  {
-                    src: "/projects/TenderAI/InventoryManagement.png",
-                    alt: "Product inventory and pricing",
-                    title: "Inventory Management",
-                  },
-                  {
-                    src: "/projects/TenderAI/TenderManagement.png",
-                    alt: "Tender processing and status",
-                    title: "Tender Management",
-                  },
-                  {
-                    src: "/projects/TenderAI/QuotationManagement.png",
-                    alt: "Quotation management overview",
-                    title: "Quotation Management",
-                  },
-                  {
-                    src: "/projects/TenderAI/QuotationInformation.png",
-                    alt: "Quotation details, product prices and totals",
-                    title: "Quotation Details",
-                  },
-                ].map((item) => (
-                  <div
-                    key={item.src}
-                    className="overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm"
-                  >
-                    <div className="border-b border-zinc-200 px-4 py-3 text-sm font-semibold text-zinc-800">
-                      {item.title}
-                    </div>
-                    <Image
-                      src={item.src}
-                      alt={item.alt}
-                      width={1600}
-                      height={900}
-                      className="h-auto w-full object-contain"
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
-
-          </article>
+          
 
         </div>
 
@@ -1059,13 +1073,15 @@ export default function Home() {
               </p>
 
               <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
-                Technology that supports real business systems.
+                AI development and C# backend engineering.
               </h2>
 
-              <p className="mt-5 max-w-xl leading-7 text-zinc-400">
-                My strongest focus is backend and enterprise development,
-                supported by modern frontend technologies, databases,
-                APIs, Linux and deployment practices.
+              <p className="mt-5 max-w-xl leading-7 text-zinc-300">
+                I work across two complementary areas: AI application
+                development using RAG, LLMs, embeddings and vector search; and
+                backend engineering using C#, .NET, ASP.NET Core and REST APIs.
+                I connect these capabilities with databases, integrations and
+                containerised deployment to deliver complete business solutions.
               </p>
 
             </div>
@@ -1111,13 +1127,13 @@ export default function Home() {
             </p>
 
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              From requirements to production
+              From business documents to AI-assisted decisions
             </h2>
 
             <p className="mt-4 leading-7 text-zinc-600">
-              I work across the application lifecycle, connecting business
-              requirements with architecture, implementation, integration
-              and reliable production software.
+              I connect document extraction, embeddings, retrieval and language
+              models with application services and business data to deliver
+              useful AI-powered workflows.
             </p>
 
           </div>
@@ -1200,9 +1216,9 @@ export default function Home() {
               </h2>
 
               <p className="mt-5 max-w-2xl text-lg leading-8 text-blue-100">
-                I am open to discussing senior software engineering,
-                backend, .NET, API, enterprise application and software
-                development opportunities.
+                I am open to opportunities where I can contribute to AI
+                application development as well as C#/.NET backend engineering,
+                ASP.NET Core API development and enterprise software solutions.
               </p>
 
 
@@ -1304,15 +1320,15 @@ export default function Home() {
                   <div className="mt-2 space-y-1 font-semibold leading-6">
 
                     <div>
-                      Senior Software Engineer
+                      AI Application Developer · RAG Developer
                     </div>
 
                     <div>
-                      Backend Developer · .NET Developer
+                      Python · FastAPI · LLM Integration
                     </div>
 
                     <div>
-                      C# Developer · API Developer
+                      Software Engineer · Backend Developer
                     </div>
 
                     <div>
@@ -1347,7 +1363,7 @@ export default function Home() {
           </div>
 
           <div>
-            C# · .NET · ASP.NET Core · REST APIs · Enterprise Software
+            AI Applications · RAG & LLMs · C# · .NET · ASP.NET Core · REST APIs
           </div>
 
         </div>
