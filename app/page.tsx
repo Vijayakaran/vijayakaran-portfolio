@@ -669,45 +669,55 @@ export default function Home() {
 
               </div>
 
-              {/* RIGHT - APPLICATION SCREENSHOTS, ARRANGED LIKE PROJECT 02 */}
+              {/* RIGHT - CURRENT TENDER QUOTATION ASSISTANT SCREENS */}
               <div className="flex items-center justify-center bg-zinc-100 p-5 lg:p-6">
                 <div className="grid w-full grid-cols-2 gap-3">
                   {[
                     {
-                      src: "/projects/TenderAI/AdminDashboard.png",
-                      alt: "Tender Quotation Assistant admin dashboard",
+                      src: "/projects/TenderAI/Dashboard.png",
+                      alt: "Tender Quotation Assistant admin dashboard showing users, tenders and activity",
                       title: "Admin Dashboard",
                       featured: true,
                     },
                     {
-                      src: "/projects/TenderAI/UserManagement.png",
-                      alt: "User management",
-                      title: "User Management",
+                      src: "/projects/TenderAI/Login.png",
+                      alt: "Tender Quotation Assistant secure login screen",
+                      title: "Login",
                     },
                     {
-                      src: "/projects/TenderAI/DocumentManagement.png",
-                      alt: "Tender document management",
-                      title: "Document Management",
+                      src: "/projects/TenderAI/TenderUpload.png",
+                      alt: "Tender document upload screen",
+                      title: "Tender Upload",
                     },
                     {
-                      src: "/projects/TenderAI/InventoryManagement.png",
-                      alt: "Product inventory and pricing",
-                      title: "Inventory Management",
-                    },
-                    {
-                      src: "/projects/TenderAI/TenderManagement.png",
-                      alt: "Tender processing and status",
+                      src: "/projects/TenderAI/TenderAfterUpload.png",
+                      alt: "Tender management screen after document upload",
                       title: "Tender Management",
                     },
                     {
-                      src: "/projects/TenderAI/QuotationManagement.png",
-                      alt: "Quotation management overview",
-                      title: "Quotation Management",
+                      src: "/projects/TenderAI/TenderCustomerConfirmation.png",
+                      alt: "Reviewing extracted customer information and confirming a customer",
+                      title: "Customer Confirmation",
                     },
                     {
-                      src: "/projects/TenderAI/QuotationInformation.png",
-                      alt: "Quotation details, product prices and totals",
-                      title: "Quotation Details",
+                      src: "/projects/TenderAI/Inventory.png",
+                      alt: "Veterinary product inventory with stock and pricing",
+                      title: "Inventory Management",
+                    },
+                    {
+                      src: "/projects/TenderAI/QuotationCreation.png",
+                      alt: "Quotation creation with product quantities, price snapshots and quote prices",
+                      title: "Quotation Creation",
+                    },
+                    {
+                      src: "/projects/TenderAI/UserManagement.png",
+                      alt: "Application user and role management",
+                      title: "User Management",
+                    },
+                    {
+                      src: "/projects/TenderAI/Backup_Restore.png",
+                      alt: "Application backup and restore screen",
+                      title: "Backup & Restore",
                     },
                   ].map((item) => (
                     <div
